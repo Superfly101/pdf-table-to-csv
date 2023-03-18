@@ -1,7 +1,3 @@
-
-# table = tabula.read_pdf(pdf_file, pages='1')
-
-
 import psycopg2
 import csv
 import tabula
@@ -13,8 +9,11 @@ username = 'newuser'
 password = 'newpassword'
 database = 'mydatabase'
 
+
 # PDF file path, CSV file path and table name
-pdf_file = 'https://nbviewer.org/github/kuruvasatya/Scraping-Tables-from-PDF/blob/master/data1.pdf'
+
+# pdf_file = 'https://nbviewer.org/github/kuruvasatya/Scraping-Tables-from-PDF/blob/master/data1.pdf'
+pdf_file = 'myfile.pdf'
 csv_file = 'output.csv'
 table_name = 'bureaux_de_change'
 
